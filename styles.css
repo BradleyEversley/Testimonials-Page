@@ -19,10 +19,21 @@ body {
     display: flex;
     width: fit-content;
     margin: 20px;
+    border: 1px solid rgb(0, 255, 76);
 }
 
 .card {
     border-radius: 20px;
+    display: grid;
+    grid-template-rows: 20% 30% 40%;
+    align-content: center;
+    gap: 2px;
+}
+
+.profile, .quote-summary, .full-quote {
+    border: 1px solid rgb(243, 3, 243);
+    height: 90%;
+    margin: 5px;
 }
 /* #endregion */
 
@@ -73,16 +84,14 @@ body {
 /* Right Container */
 /* #region Main */
 
-.right-container {
-    border: 1px solid black;
+#right-container {
+    border: 1px solid rgb(250, 5, 5);
     margin-left: 20px;
     border-radius: 25px;
     background-color: white;
-}
-
-#column-3 {
     width: 175px;
 }
+
 /* #endregion */
 
 
