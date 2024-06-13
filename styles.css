@@ -1,3 +1,5 @@
+/* Global Styling */
+/* #region Main */
 * {
     margin: 0px;
     padding: 0px;
@@ -7,7 +9,7 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-color: rgb(132, 132, 132);
+    background-color: rgb(192, 192, 192);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,51 +17,77 @@ body {
 
 .main-container {
     display: flex;
-    border: 1px solid rgb(251, 3, 3);
-    width: fit-content
+    width: fit-content;
+    margin: 20px;
 }
 
+.card {
+    border-radius: 20px;
+}
+/* #endregion */
+
+/* Left Container Styling */
+/* #region Main */
 .left-container {
     height: 100%;
 }
 
 .top-row {
     display: grid;
-    grid-template-columns: 30vw 16vw;
+    grid-template-columns: 300px 150px;
     gap: 20px
 }
 
 .bottom-row {
     display: grid;
-    grid-template-columns: 16vw 30vw;
-    gap: 20px
+    grid-template-columns: 150px 300px;
+    gap: 20px;
 }
+
+#column-1-top {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    height: 25vh;
+    background-color: hsl(263, 55%, 52%);
+}
+#column-2-top {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    height: 25vh;
+    background-color: hsl(217, 42%, 49%);
+}
+
+#column-1-bottom {
+    border: 1px solid black;
+    height: 25vh;
+    background-color: white;
+}
+
+#column-2-bottom {
+    border: 1px solid black;
+    height: 25vh;
+    background-color: hsl(219, 29%, 14%);
+}
+/* #endregion */
+
+/* Right Container */
+/* #region Main */
 
 .right-container {
     border: 1px solid black;
     margin-left: 20px;
+    border-radius: 25px;
+    background-color: white;
 }
 
-.column-1-top {
-    border: 1px solid black;
-    margin-bottom: 20px;
-    height: 25vh;
+#column-3 {
+    width: 175px;
 }
-.column-2-top {
-    border: 1px solid black;
-    margin-bottom: 20px;
-    height: 25vh;
-}
-.column-1-bottom {
-    border: 1px solid black;
-    height: 25vh;
-}
+/* #endregion */
 
-.column-2-bottom {
-    border: 1px solid black;
-    height: 25vh;
-}
 
-.column-3 {
-    width: 16vw;
-}
+
+
+
+/* #region Main */
+/* #endregion */
