@@ -79,7 +79,7 @@ body {
 .profile, .quote-summary, .full-quote {
     display: flex;
     align-items: center;
-    
+    word-wrap: break-word;
     height: 90%;
     margin: 5px;
 }
@@ -157,6 +157,7 @@ color: rgb(113, 113, 113);
     margin-bottom: 0px;
     translate: -25px;
     position: relative;
+    word-wrap: break-word;
 }
 
 /* #endregion */
